@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
         "drupal/adminimal_admin_toolbar": "^1.11",
         "drupal/adminimal_theme": "^1.6",
         "drupal/advancedqueue": "^1.0@RC",
@@ -44,9 +45,20 @@
         "sort-packages": true
     },
     "extra": {
+        "patchLevel": {
+            "drupal/core": "-p2"
+        },
+        "patches": {
+            "drupal/core": {
+                "Add our customizations to .htaccess (otherwise gets overwritten by scaffolding": "patches/htaccess.patch"
+            }
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "./"
+            },
+            "file-mapping": {
+                "[web-root]/README.md": false
             }
         },
         "installer-paths": {

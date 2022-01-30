@@ -43,3 +43,10 @@ sites/simpletest
 # Ignore SimpleTest multi-site environment.
 # simpletest
 /example.gitignore
+
+# .htaccess is scaffolded so we can't change it directly. Instead, we patch it.
+# See https://www.drupal.org/project/drupal/issues/3092563#comment-14157268
+.htaccess
+
+# Ignore our GitHub webhook handler
+/webhook-*
