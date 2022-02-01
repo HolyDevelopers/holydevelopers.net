@@ -21,6 +21,7 @@
         "drupal/adminimal_theme": "^1.6",
         "drupal/advancedqueue": "^1.0@RC",
         "drupal/better_passwords": "^2.0",
+        "drupal/captcha": "^1.2",
         "drupal/codesnippet": "^1.7",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
