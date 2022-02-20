@@ -1,0 +1,10 @@
+--- a/src/Plugin/CKEditorPlugin/CodeSnippet.php	2022-02-20 12:01:17.516645800 +0100
++++ b/src/Plugin/CKEditorPlugin/CodeSnippet.php	2022-02-20 11:14:57.395614060 +0100
+@@ -182,6 +182,7 @@
+       'vbscript' => 'VBScript',
+       'xhtml' => 'XHTML',
+       'xml' => 'XML',
++	  'yaml' => 'YAML',
+     ];
+   }
+ 
