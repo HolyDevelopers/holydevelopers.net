@@ -55,9 +55,11 @@
                 "Add our customizations to .htaccess (otherwise gets overwritten by scaffolding": "patches/htaccess.patch"
             },
 			"drupal/codesnippet": {
-				"Enable code highlighting for YAML": "patches/codesnippet-add-yaml-support.patch",
-				"Replace highlight.js with our custom version": "patches/codesnippet-custom-highlight-library.patch"
-			}
+                "Enable code highlighting for YAML": "patches/codesnippet-add-yaml-support.patch"
+            },
+            "drupal-ckeditor-libraries-group/codesnippet": {
+                "Replace highlight.pack.js with custom version": "patches/codesnippet-replace-highlight.pack.js.patch"
+            }
         },
         "drupal-scaffold": {
             "locations": {
