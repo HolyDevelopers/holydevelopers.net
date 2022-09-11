@@ -36,6 +36,7 @@
         "drupal/push_framework": "^2.1",
         "drupal/token": "^1.9",
         "drupal/views_bulk_operations": "^4.0",
+        "drupal/webform": "^6.1",
         "drush/drush": "^10.5"
     },
     "conflict": {
