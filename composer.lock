@@ -403,16 +403,16 @@
         },
         {
             "name": "consolidation/annotated-command",
-            "version": "4.6.0",
+            "version": "4.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/annotated-command.git",
-                "reference": "ee63c57f929e7131c714783193512ea4f76de74c"
+                "reference": "76835d35fcb0b879170129e82adfa1536b72921f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/ee63c57f929e7131c714783193512ea4f76de74c",
-                "reference": "ee63c57f929e7131c714783193512ea4f76de74c",
+                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/76835d35fcb0b879170129e82adfa1536b72921f",
+                "reference": "76835d35fcb0b879170129e82adfa1536b72921f",
                 "shasum": ""
             },
             "require": {
@@ -453,9 +453,9 @@
             "description": "Initialize Symfony Console commands from annotated command class methods.",
             "support": {
                 "issues": "https://github.com/consolidation/annotated-command/issues",
-                "source": "https://github.com/consolidation/annotated-command/tree/4.6.0"
+                "source": "https://github.com/consolidation/annotated-command/tree/4.6.1"
             },
-            "time": "2022-10-30T22:08:00+00:00"
+            "time": "2022-11-09T18:31:17+00:00"
         },
         {
             "name": "consolidation/config",
@@ -1549,17 +1549,17 @@
         },
         {
             "name": "drupal/advancedqueue",
-            "version": "1.0.0-rc5",
+            "version": "1.0.0-rc6",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/advancedqueue.git",
-                "reference": "8.x-1.0-rc5"
+                "reference": "8.x-1.0-rc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/advancedqueue-8.x-1.0-rc5.zip",
-                "reference": "8.x-1.0-rc5",
-                "shasum": "65253881ca852f2a66ffa7ca0bd319c345a24f8c"
+                "url": "https://ftp.drupal.org/files/projects/advancedqueue-8.x-1.0-rc6.zip",
+                "reference": "8.x-1.0-rc6",
+                "shasum": "e642153a2b4094e73f86cb63c2a81966871714d4"
             },
             "require": {
                 "drupal/core": "^9.1 || ^10"
@@ -1567,8 +1567,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0-rc5",
-                    "datestamp": "1667516944",
+                    "version": "8.x-1.0-rc6",
+                    "datestamp": "1667989296",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -1691,17 +1691,17 @@
         },
         {
             "name": "drupal/captcha",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/captcha.git",
-                "reference": "8.x-1.5"
+                "reference": "8.x-1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/captcha-8.x-1.5.zip",
-                "reference": "8.x-1.5",
-                "shasum": "36284ece721d3534d0c3bd6ae01cdb549920a024"
+                "url": "https://ftp.drupal.org/files/projects/captcha-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "24b755e77ff4a95f40ef074c91ed9132303fafbb"
             },
             "require": {
                 "drupal/core": ">=8.9 <11"
@@ -1709,8 +1709,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.5",
-                    "datestamp": "1662751122",
+                    "version": "8.x-1.6",
+                    "datestamp": "1667906819",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
