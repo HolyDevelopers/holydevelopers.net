@@ -2,8 +2,10 @@ Here you find the code behind https://www.holydevelopers.net. The website is run
 
 It is using the coming Drupal default theme [Olivero][Olivero]. Currently it is a fairly simple setup with no customizations but just some modules installed.
 
+Automatic deployment is set up using our [php-webhook-handler][php-webhook-handler] (more explanations: [Deploying to a web server using GitHub webhooks][deploying]). The test branch is deploying to a test system.
+
 ## Requirements
-* PHP (>= 7.4), MySQL, Apache, Composer (version 2 recommended)
+* PHP (8.1 recommended), MySQL, Apache, Composer (version 2 recommended)
 
 ## Installation
 * clone the repository
@@ -17,8 +19,6 @@ It is using the coming Drupal default theme [Olivero][Olivero]. Currently it is 
 * `drush site:install`
 
 ## Next steps
-* set up automatic deployment
-* set up a test branch and a test system with automatic deployment as well
 * provide database dump
 * setup [Gitpod][Gitpod] for easy development and contribution
 * let users subscribe to topics and get automatic notifications on new posts containing a tag they're interested (using DANSE?)
@@ -40,5 +40,7 @@ By contributing you release your contributed code under the licensing terms expl
 [Drupal.org]: https://www.drupal.org
 [Drupal with composer]: https://www.drupal.org/docs/develop/using-composer
 [Olivero]: https://www.drupal.org/docs/core-modules-and-themes/core-themes/olivero
+[php-webhook-handler]: https://github.com/HolyDevelopers/php-webhook-handler
+[deploying]: https://www.holydevelopers.net/deploying-to-a-web-server-using-github-webhooks
 [DANSE]: https://www.drupal.org/project/danse
 [Gitpod]: https://www.gitpod.io/
