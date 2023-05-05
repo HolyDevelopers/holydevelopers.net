@@ -34,6 +34,7 @@
         "drupal/message_subscribe": "^1.1",
         "drupal/pf_email": "^2.1",
         "drupal/push_framework": "^2.1",
+        "drupal/seckit": "^2.0",
         "drupal/token": "^1.9",
         "drupal/views_bulk_operations": "^4.0",
         "drupal/webform": "^6.1",
