@@ -3035,17 +3035,17 @@
         },
         {
             "name": "drupal/push_framework",
-            "version": "2.2.7",
+            "version": "2.2.8",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/push_framework.git",
-                "reference": "2.2.7"
+                "reference": "2.2.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/push_framework-2.2.7.zip",
-                "reference": "2.2.7",
-                "shasum": "2b02f0c9a0f5ce5b81b90c85f381833b6b22e33e"
+                "url": "https://ftp.drupal.org/files/projects/push_framework-2.2.8.zip",
+                "reference": "2.2.8",
+                "shasum": "08eaffa024412652b19d1f7770b1dbc98c3fbb4a"
             },
             "require": {
                 "drupal/advancedqueue": "^1.0@rc",
@@ -3058,8 +3058,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.2.7",
-                    "datestamp": "1676131572",
+                    "version": "2.2.8",
+                    "datestamp": "1686147720",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
