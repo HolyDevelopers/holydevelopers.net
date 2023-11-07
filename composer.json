@@ -17,27 +17,28 @@
     "require": {
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
-        "drupal/adminimal_admin_toolbar": "^1.11",
+        "drupal/admin_toolbar": "^3.4",
+        "drupal/adminimal_admin_toolbar": "1.x-dev@dev",
         "drupal/adminimal_theme": "^1.6",
         "drupal/advancedqueue": "^1.0@RC",
         "drupal/better_passwords": "^2.0",
         "drupal/captcha": "^1.2",
-        "drupal/codesnippet": "^1.7",
-        "drupal/core-composer-scaffold": "^9.2",
-        "drupal/core-project-message": "^9.2",
-        "drupal/core-recommended": "^9.2",
+        "drupal/core-composer-scaffold": "^10",
+        "drupal/core-project-message": "^10",
+        "drupal/core-recommended": "^10",
         "drupal/core-vendor-hardening": "^9.2",
         "drupal/danse": "^2.2",
         "drupal/flag": "^4.0@beta",
         "drupal/fullcalendar_view": "^5.1",
         "drupal/geolocation": "^3.2",
+        "drupal/highlight_php": "^1.0",
         "drupal/message_subscribe": "^1.1",
         "drupal/pf_email": "^2.1",
         "drupal/push_framework": "^2.1",
         "drupal/token": "^1.9",
         "drupal/views_bulk_operations": "^4.0",
         "drupal/webform": "^6.1",
-        "drush/drush": "^10.5"
+        "drush/drush": "^12"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -61,12 +62,6 @@
         "patches": {
             "drupal/core": {
                 "Add our customizations to .htaccess (otherwise gets overwritten by scaffolding": "patches/htaccess.patch"
-            },
-			"drupal/codesnippet": {
-                "Enable code highlighting for YAML": "patches/codesnippet-add-yaml-support.patch"
-            },
-            "drupal-ckeditor-libraries-group/codesnippet": {
-                "Replace highlight.pack.js with custom version": "patches/codesnippet-replace-highlight.pack.js.patch"
             }
         },
         "drupal-scaffold": {
