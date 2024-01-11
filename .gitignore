@@ -54,3 +54,5 @@ sites/simpletest
 
 # Ignore our GitHub webhook handler
 /webhook-*
+
+.well-known
