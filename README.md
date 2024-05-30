@@ -5,7 +5,8 @@ It is using the coming Drupal default theme [Olivero][Olivero]. Currently it is 
 Automatic deployment is set up using our [php-webhook-handler][php-webhook-handler] (more explanations: [Deploying to a web server using GitHub webhooks][deploying]). The test branch is deploying to a test system.
 
 ## Requirements
-* PHP (8.1 recommended), MySQL, Apache, Composer (version 2 recommended)
+* PHP (at least 8.1 required), MySQL, Apache, Composer (version 2 required)
+* See [Drupal 10 system requirements](https://www.drupal.org/docs/getting-started/system-requirements/overview)
 
 ## Installation
 * clone the repository
@@ -17,6 +18,13 @@ Automatic deployment is set up using our [php-webhook-handler][php-webhook-handl
   * `FLUSH PRIVILEGES;`
 * Make sure the directory `sites/default/files` is writable for Apache
 * `drush site:install`
+
+## Local web development environment with DDEV
+With [DDEV](https://ddev.readthedocs.io) you can quickly get a local running version of the website. You need to [install a docker provider and install ddev](https://ddev.readthedocs.io/en/stable/users/install/) and then you're very quickly ready to go:
+* `cd /path/to/holydevelopers.net` to go into the reository folder
+* `ddev start` to spin up the necessary docker containers
+* `ddev import-db --file=TODO_database_dump.sql.gz` to import the database
+* `ddev launch` to open the locally running site in your browser
 
 ## Next steps
 * provide database dump
