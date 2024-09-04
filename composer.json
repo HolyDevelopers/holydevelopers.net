@@ -35,6 +35,7 @@
         "drupal/message_subscribe": "^1.1",
         "drupal/pf_email": "^2.1",
         "drupal/push_framework": "^2.1",
+        "drupal/quick_node_clone": "^1.18",
         "drupal/token": "^1.9",
         "drupal/views_bulk_operations": "^4.0",
         "drupal/webform": "^6.1",
