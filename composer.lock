@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c89650823dbf97d588117d7457bc4f8",
+    "content-hash": "b9bed8eb9cb76a19a95d911c04667c6e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1984,6 +1984,75 @@
                 "source": "https://github.com/drupal/core-vendor-hardening/tree/9.5.11"
             },
             "time": "2022-12-07T11:22:43+00:00"
+        },
+        {
+            "name": "drupal/countdown",
+            "version": "1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/countdown.git",
+                "reference": "8.x-1.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/countdown-8.x-1.10.zip",
+                "reference": "8.x-1.10",
+                "shasum": "4432ecafb897264bce46aea8de4e1b27ecb89e87"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9 || ^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.10",
+                    "datestamp": "1717977634",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bocaj",
+                    "homepage": "https://www.drupal.org/user/582042"
+                },
+                {
+                    "name": "deekayen",
+                    "homepage": "https://www.drupal.org/user/972"
+                },
+                {
+                    "name": "joachim",
+                    "homepage": "https://www.drupal.org/user/107701"
+                },
+                {
+                    "name": "mahyarsbt",
+                    "homepage": "https://www.drupal.org/user/722386"
+                },
+                {
+                    "name": "rahul.nahar001",
+                    "homepage": "https://www.drupal.org/user/1975254"
+                },
+                {
+                    "name": "UsingSession",
+                    "homepage": "https://www.drupal.org/user/3582050"
+                }
+            ],
+            "description": "Adds a block to count the days, hours, minutes, and seconds since or until a specified event.",
+            "homepage": "https://www.drupal.org/project/countdown",
+            "keywords": [
+                "Drupal",
+                "countdown"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/countdown",
+                "issues": "https://drupal.org/project/issues/countdown"
+            }
         },
         {
             "name": "drupal/danse",
